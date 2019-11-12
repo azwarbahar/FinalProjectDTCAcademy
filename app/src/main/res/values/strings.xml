@@ -1,0 +1,251 @@
+<resources>
+    <string name="app_name">Pasolle</string>
+    <string name="nameApp">Pasolle</string>
+
+
+    <string name="home">Home</string>
+    <string name="kota">Kota</string>
+    <string name="pesawat">Pesawat</string>
+    <string name="hotel">Hotel</string>
+    <string name="histori">Histori</string>
+
+
+    <string-array name="gambar_promo">
+        <item>@drawable/promo1</item>
+        <item>@drawable/promo2</item>
+        <item>@drawable/promo3</item>
+    </string-array>
+
+    <string-array name="nama_gambar_promo">
+        <item>promo1</item>
+        <item>promo2</item>
+        <item>promo3</item>
+    </string-array>
+
+    <string-array name="gambar_populer">
+        <item>@drawable/mkspanlos</item>
+        <item>@drawable/bira</item>
+        <item>@drawable/bantimurung</item>
+        <item>@drawable/malino</item>
+        <item>@drawable/enrekangbuttumacca</item>
+        <item>@drawable/ketekesu</item>
+    </string-array>
+
+    <string-array name="titel_populer">
+        <item>Pantai Losari, Makassar</item>
+        <item>Pantai Bira, Bulukumba</item>
+        <item>Bantimurung, Maros</item>
+        <item>Malino, Gowa</item>
+        <item>Buttu Macca, Enrekang</item>
+        <item>Kete Kesu, Tana Toraja</item>
+    </string-array>
+
+    <string-array name="deskripsi_populer">
+        <item>Pantai Losari, is a historical heritage of the XI century, a temple built on a cliff jutting into the middle of the sea is the most popular destination in Bali, Indonesia</item>
+        <item>Pantai Bira, is a historical heritage of the XI century, a temple built on a cliff jutting into the middle of the sea is the most popular destination in Bali, Indonesia</item>
+        <item>Bantimurung, is a historical heritage of the XI century, a temple built on a cliff jutting into the middle of the sea is the most popular destination in Bali, Indonesia</item>
+        <item>Malino, is a historical heritage of the XI century, a temple built on a cliff jutting into the middle of the sea is the most popular destination in Bali, Indonesia</item>
+        <item>Buttu Macca, is a historical heritage of the XI century, a temple built on a cliff jutting into the middle of the sea is the most popular destination in Bali, Indonesia</item>
+        <item>Kete Kesu, is a historical heritage of the XI century, a temple built on a cliff jutting into the middle of the sea is the most popular destination in Bali, Indonesia</item>
+    </string-array>
+
+    <string-array name="gambar_kota">
+        <item>@drawable/mkspanlos</item>
+        <item>@drawable/bira</item>
+        <item>@drawable/bantimurung</item>
+        <item>@drawable/malino</item>
+        <item>@drawable/enrekangbuttumacca</item>
+        <item>@drawable/ketekesu</item>
+        <item>@drawable/mkspanlos</item>
+        <item>@drawable/bira</item>
+        <item>@drawable/bantimurung</item>
+        <item>@drawable/malino</item>
+        <item>@drawable/enrekangbuttumacca</item>
+        <item>@drawable/ketekesu</item>
+    </string-array>
+
+    <string-array name="titel_kota">
+        <item>MAKASSAR</item>
+        <item>BULUKUMBA</item>
+        <item>MAROS</item>
+        <item>GOWA</item>
+        <item>ENREKANG</item>
+        <item>TANA TORAJA</item>
+
+    </string-array>
+
+    <string-array name="nama_hotel">
+        <item>Hotel Claro</item>
+        <item>Hotel Sahid</item>
+        <item>Hotel Four Point</item>
+        <item>Hotel Swiss Belin</item>
+    </string-array>
+
+    <string-array name="alamat_hotel">
+        <item>Jl. A.P Pettarani</item>
+        <item>Jl. Ratulangi</item>
+        <item>Jl. Landak</item>
+        <item>Jl. Bolepar</item>
+    </string-array>
+
+    <string-array name="harga_hotel">
+        <item>500,000</item>
+        <item>300,000</item>
+        <item>700.000</item>
+        <item>400.000</item>
+    </string-array>
+
+    <string-array name="gambar1_hotel">
+        <item>@drawable/claro1</item>
+        <item>@drawable/sahid1</item>
+        <item>@drawable/claro1</item>
+        <item>@drawable/sahid1</item>
+    </string-array>
+
+    <string-array name="gambar2_hotel">
+        <item>@drawable/claro2</item>
+        <item>@drawable/sahid2</item>
+        <item>@drawable/claro2</item>
+        <item>@drawable/sahid2</item>
+    </string-array>
+
+    <string-array name="gambar3_hotel">
+        <item>@drawable/claro3</item>
+        <item>@drawable/sahid3</item>
+        <item>@drawable/claro3</item>
+        <item>@drawable/sahid3</item>
+    </string-array>
+
+
+    <string-array name="tujuan_pesawat">
+        <item>Makassar (UPG)</item>
+        <item>Luwu Raya (LLO)</item>
+        <item>Tana Toraja (TTR)</item>
+        <item>Kepulauan Selayar (YKR)</item>
+    </string-array>
+
+    <string-array name="singkatan_tujuan_pesawat">
+        <item>UPG</item>
+        <item>LLO</item>
+        <item>TTR</item>
+        <item>YKR</item>
+    </string-array>
+
+    <string-array name="bandara_tujuan_pesawat">
+        <item>Bandara Internasional Sultan Hasanuddin</item>
+        <item>Bandara Lagaligo Bua</item>
+        <item>Bandara Internasional Toraja</item>
+        <item>Bandara H Aroeppala</item>
+    </string-array>
+
+    <string-array name="wisata_makassar">
+        <item>Pantai Losari, Makassar</item>
+        <item>Fort Rotterdam, Makassar</item>
+    </string-array>
+
+    <string-array name="gambar_makassar">
+        <item>@drawable/mkspanlos</item>
+        <item>@drawable/mksrotterdam</item>
+    </string-array>
+
+    <string-array name="deskripsi_makassar">
+        <item>Pantai Losari, is a historical heritage of the XI century, a temple built on a cliff jutting into the middle of the sea is the most popular destination in Bali, Indonesia</item>
+        <item>Fort Rotterdam, is a historical heritage of the XI century, a temple built on a cliff jutting into the middle of the sea is the most popular destination in Bali, Indonesia</item>
+    </string-array>
+
+    <string-array name="wisata_bulukumba">
+        <item>Pantai Bira, Bulukumba</item>
+        <item>Pantai Apparalang, Bulukumba</item>
+    </string-array>
+
+    <string-array name="gambar_bulukumba">
+        <item>@drawable/bira</item>
+        <item>@drawable/apparalang</item>
+    </string-array>
+
+    <string-array name="deskripsi_bulukumba">
+        <item>Pantai Bira, is a historical heritage of the XI century, a temple built on a cliff jutting into the middle of the sea is the most popular destination in Bali, Indonesia</item>
+        <item>Apparalang, is a historical heritage of the XI century, a temple built on a cliff jutting into the middle of the sea is the most popular destination in Bali, Indonesia</item>
+    </string-array>
+
+    <string-array name="wisata_maros">
+        <item>Bantimurung, Maros</item>
+        <item>Rammang - Rammang, Maros</item>
+    </string-array>
+
+    <string-array name="gambar_maros">
+        <item>@drawable/bantimurung</item>
+        <item>@drawable/marosrammang</item>
+    </string-array>
+
+    <string-array name="deskripsi_maros">
+        <item>Bantimurung, is a historical heritage of the XI century, a temple built on a cliff jutting into the middle of the sea is the most popular destination in Bali, Indonesia</item>
+        <item>Rammang - rammang, is a historical heritage of the XI century, a temple built on a cliff jutting into the middle of the sea is the most popular destination in Bali, Indonesia</item>
+    </string-array>
+
+    <string-array name="wisata_gowa">
+        <item>Malino, Gowa</item>
+        <item>Fort Somba Opu, Gowa</item>
+    </string-array>
+
+    <string-array name="gambar_gowa">
+        <item>@drawable/malino</item>
+        <item>@drawable/sombaopu</item>
+    </string-array>
+
+    <string-array name="deskripsi_gowa">
+        <item>Malino, is a historical heritage of the XI century, a temple built on a cliff jutting into the middle of the sea is the most popular destination in Bali, Indonesia</item>
+        <item>Sombaopu, is a historical heritage of the XI century, a temple built on a cliff jutting into the middle of the sea is the most popular destination in Bali, Indonesia</item>
+    </string-array>
+
+    <string-array name="wisata_enrekang">
+        <item>Buttu Macca, Enrekang</item>
+        <item>Air Terjun Lewaja, Enrekang</item>
+    </string-array>
+
+    <string-array name="gambar_enrekang">
+        <item>@drawable/enrekangbuttumacca</item>
+        <item>@drawable/enrekangairterlewaja</item>
+    </string-array>
+
+    <string-array name="deskripsi_enrekang">
+        <item>Buttu Macca, is a historical heritage of the XI century, a temple built on a cliff jutting into the middle of the sea is the most popular destination in Bali, Indonesia</item>
+        <item>Air Terjun Lewaja, is a historical heritage of the XI century, a temple built on a cliff jutting into the middle of the sea is the most popular destination in Bali, Indonesia</item>
+    </string-array>
+
+
+    <string-array name="wisata_toraja">
+        <item>Buntu Burake, Tana Toraja</item>
+        <item>Kete Kesu, Tana Toraja</item>
+    </string-array>
+
+    <string-array name="gambar_toraja">
+        <item>@drawable/buntuburake</item>
+        <item>@drawable/ketekesu</item>
+    </string-array>
+
+    <string-array name="deskripsi_toraja">
+        <item>Buntu Burake, is a historical heritage of the XI century, a temple built on a cliff jutting into the middle of the sea is the most popular destination in Bali, Indonesia</item>
+        <item>Ketekesu, is a historical heritage of the XI century, a temple built on a cliff jutting into the middle of the sea is the most popular destination in Bali, Indonesia</item>
+    </string-array>
+
+
+    <string-array name="nama_pesawat">
+        <item>Lion Air</item>
+        <item>Citilink</item>
+        <item>Air Asia</item>
+        <item>Batik Air</item>
+    </string-array>
+
+    <string-array name="gambar_pesawat">
+        <item>@drawable/lion_air</item>
+        <item>@drawable/citilink</item>
+        <item>@drawable/air_asia</item>
+        <item>@drawable/batik_air</item>
+    </string-array>
+
+
+
+
+
+</resources>

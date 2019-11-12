@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/kota_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            app:cardBackgroundColor="@color/colorSearch"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="0dp">
+
+            <EditText
+                android:id="@+id/kota_et_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparan"
+                android:drawableRight="@drawable/ic_search"
+                android:hint="Cari Kota"
+                android:imeOptions="actionSearch"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:singleLine="true"
+                android:textColor="@color/colorSearchText"
+                android:textColorHint="@color/colorSearchText" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/kota_rv"
+            tools:listitem="@layout/item_kota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

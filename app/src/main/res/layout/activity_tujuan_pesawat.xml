@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Pesawat.Tujuan.TujuanPesawatActivity">
+
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/cari_tujuan_tb"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:theme="@style/ToolbarBackWhite">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="16dp"
+        app:cardBackgroundColor="@color/colorSearch"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp">
+
+        <EditText
+            android:id="@+id/edit_cari_tujuan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:drawableRight="@drawable/ic_search"
+            android:hint="Cari Tujuan"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/colorSearchText"
+            android:textColorHint="@color/colorSearchText" />
+
+
+
+    </androidx.cardview.widget.CardView>
+</androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_cari_tujuan_pesawat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/getkode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

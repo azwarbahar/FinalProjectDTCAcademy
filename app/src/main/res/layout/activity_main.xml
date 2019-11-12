@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/putih"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_top">
+
+        <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="3dp"-->
+        <!--android:background="#2ea3fe"/>-->
+
+        <FrameLayout
+            android:id="@+id/fltoolbar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+            <Button
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/ic_menu_black_24dp"
+                android:id="@+id/title_bar_left_menu"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="@string/nameApp"
+                android:textSize="24sp"
+                android:textColor="@color/putih"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/ic_menu_black_24dp"
+                android:id="@+id/title_bar_right_menu"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="10dp"/>
+        </FrameLayout>
+
+        <View
+            android:layout_below="@id/fltoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:background="@drawable/layout_round_book"/>
+
+        <FrameLayout
+            android:layout_below="@id/fltoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/main_fragment">
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>
